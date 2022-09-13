@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C047A53428D0C15D00EFEFC4 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047A53328D0C15D00EFEFC4 /* ControlImageView.swift */; };
 		C098E11428C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */; };
 		C098E11628C95FAC0057A515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098E11528C95FAC0057A515 /* ContentView.swift */; };
 		C098E11828C95FB20057A515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C098E11728C95FB20057A515 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C047A53328D0C15D00EFEFC4 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 		C098E11028C95FAC0057A515 /* PinchAppMasterclassSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchAppMasterclassSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAppMasterclassSwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		C098E11528C95FAC0057A515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C0BE9A8C28CF9DCD009C6164 /* InfoPanelView.swift */,
+				C047A53328D0C15D00EFEFC4 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C047A53428D0C15D00EFEFC4 /* ControlImageView.swift in Sources */,
 				C098E11628C95FAC0057A515 /* ContentView.swift in Sources */,
 				C098E11428C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift in Sources */,
 				C0BE9A8D28CF9DCD009C6164 /* InfoPanelView.swift in Sources */,

@@ -76,7 +76,54 @@ struct ContentView: View {
                     .padding(.top, 30)
                 , alignment: .top
             )
-        } //: NAVIGATION
+            .overlay(
+                Group{
+                    HStack{
+                        // SCALE DOWN
+                        Button{
+                            withAnimation(.spring()){
+                                if imageScale > 1{
+                                    imageScale -= 1
+                                    if imageScale <= 1 {
+                                        resetImageState()
+                                    }
+                                }
+                            }
+                        } label: {
+                            ControlImageView(icon: "minus.magnifyingglass")
+                                .font(.system(size: 36))
+                        }
+                        // RESET
+                        Button{
+                            resetImageState()
+                        } label: {
+                            ControlImageView(icon: "arrow.up.left.and.down.right.magnifyingglass")
+                                .font(.system(size: 36))
+                        }
+                        // SCALE UP
+                        Button{
+                            if imageScale < 5 {
+                                imageScale += 1
+                                if imageScale > 5 {
+                                    imageScale = 5
+                                }
+                            }
+                            
+                        } label: {
+                            ControlImageView(icon: "plus.magnifyingglass")
+                                .font(.system(size: 36))
+                        }
+                    } // MARK: CONTROLS
+                    .padding(EdgeInsets(top: 12, leading:20, bottom:12, trailing: 20))
+                    .background(.ultraThinMaterial)
+                    .cornerRadius(12)
+                    .opacity(isAnimating ? 1 : 0)
+                    
+                    
+                }.padding(.bottom, 30)
+                , alignment: .bottom
+            )
+        } // MARK: NAVIGATION
         .navigationViewStyle(.stack)
     }
 }
