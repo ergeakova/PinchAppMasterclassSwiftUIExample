@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0329A1228D3520E00FDAFAC /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0329A1128D3520E00FDAFAC /* PageModel.swift */; };
+		C0329A1428D3527900FDAFAC /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0329A1328D3527900FDAFAC /* PageData.swift */; };
 		C047A53428D0C15D00EFEFC4 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047A53328D0C15D00EFEFC4 /* ControlImageView.swift */; };
 		C098E11428C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */; };
 		C098E11628C95FAC0057A515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098E11528C95FAC0057A515 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0329A1128D3520E00FDAFAC /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		C0329A1328D3527900FDAFAC /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		C047A53328D0C15D00EFEFC4 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 		C098E11028C95FAC0057A515 /* PinchAppMasterclassSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchAppMasterclassSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchAppMasterclassSwiftUIExampleApp.swift; sourceTree = "<group>"; };
@@ -55,10 +59,10 @@
 		C098E11228C95FAC0057A515 /* PinchAppMasterclassSwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */,
 				C098E12328C960270057A515 /* Data */,
 				C098E12228C960220057A515 /* View */,
 				C098E12128C9601D0057A515 /* Model */,
-				C098E11328C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift */,
 				C098E12428C9602F0057A515 /* Screen */,
 				C098E11728C95FB20057A515 /* Assets.xcassets */,
 				C098E11928C95FB20057A515 /* Preview Content */,
@@ -77,6 +81,7 @@
 		C098E12128C9601D0057A515 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0329A1128D3520E00FDAFAC /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		C098E12328C960270057A515 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C0329A1328D3527900FDAFAC /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C047A53428D0C15D00EFEFC4 /* ControlImageView.swift in Sources */,
+				C0329A1228D3520E00FDAFAC /* PageModel.swift in Sources */,
 				C098E11628C95FAC0057A515 /* ContentView.swift in Sources */,
 				C098E11428C95FAC0057A515 /* PinchAppMasterclassSwiftUIExampleApp.swift in Sources */,
+				C0329A1428D3527900FDAFAC /* PageData.swift in Sources */,
 				C0BE9A8D28CF9DCD009C6164 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
